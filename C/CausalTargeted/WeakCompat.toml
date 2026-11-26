@@ -1,10 +1,12 @@
 [0]
-EvoTrees = "0.18"
 MLJFlux = "0.6"
 MLJLinearModels = "0.10"
 
 ["0 - 0.3.4"]
 MLJ = "0.20"
+
+["0 - 0.5.0"]
+EvoTrees = "0.18"
 
 ["0.3.16 - 0"]
 FastGaussQuadrature = "1"
@@ -12,7 +14,7 @@ MixedModels = "5"
 NLopt = "1"
 SpecialFunctions = "2"
 
-["0.3.4 - 0"]
+["0.3.4 - 0.3"]
 CausalMediation = "0.1"
 
 ["0.3.6 - 0"]
@@ -20,3 +22,17 @@ MLJ = "0.20 - 0.23"
 MLJDecisionTreeInterface = "0.5"
 MLJXGBoostInterface = "0.3"
 Makie = "0.22 - 0.24"
+
+["0.4"]
+CausalMediation = "0.2"
+
+["0.4.1 - 0"]
+GraphPPL = "4.6.0 - 4"
+RxInfer = "4 - 6"
+
+["0.5 - 0"]
+CausalMediation = "0.2 - 0.3"
+PSIS = "0.9"
+
+["0.5.1 - 0"]
+EvoTrees = "0.18 - 0.20"

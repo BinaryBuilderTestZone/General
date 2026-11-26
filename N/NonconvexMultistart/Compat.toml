@@ -1,7 +1,9 @@
 [0]
-Hyperopt = "0.4"
 Reexport = "1"
 Sobol = "1"
+
+["0 - 0.1"]
+Hyperopt = "0.4"
 julia = "1"
 
 ["0 - 0.1.0"]
@@ -25,9 +27,18 @@ LinearAlgebra = "1.12.0 - 1"
 
 ["0.1.4 - 0"]
 ChainRulesCore = "1"
-NonconvexCore = "1.5.0 - 1"
 Parameters = "0.12 - 0.13"
 Setfield = "1"
 
+["0.1.4 - 0.2"]
+NonconvexCore = "1.5.0 - 1"
+
 ["0.1.5 - 0"]
 LinearAlgebra = "1"
+
+["0.2 - 0"]
+Hyperopt = "0.6"
+julia = "1.10.0 - 1"
+
+["0.3 - 0"]
+NonconvexCore = "2"
